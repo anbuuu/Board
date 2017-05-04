@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#22a7f0</color>
+    <color name="colorPrimaryDark">#1e96d8</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <!--UX provided-->
+    <color name="greyish_brown">#4d4d4d</color>
+    <color name="greyish_brown_two">#525252</color>
+    <color name="black_two">#000000</color>
+    <color name="black_three">#262626</color>
+    <color name="black_four">#1a1a1a</color>
+    <color name="black_five">#333333</color>
+    <color name="black_six">#222222</color>
+    <color name="black_seven">#151515</color>
+
+    <color name="black_three_10">#1A262626</color>
+    <color name="black_three_5">#0D262626</color>
+    <color name="black_three_15">#26262626</color>
+
+    <color name="pinkish_grey">#cccccc</color>
+    <color name="pinkish_grey_shadow">#80cccccc</color>
+    <color name="white_four">#CCf0f0f0</color>
+    <color name="white_two">#f0f0f0</color>
+    <color name="white_three">#ffffff</color>
+    <color name="axis_almost_white">#ECF0F1</color>
+    <color name="warm_grey">#808080</color>
+    <color name="axis_dark_grey">#414649</color>
+    <color name="tealish">#29bcd6</color>
+    <color name="tealish_two">#24aac2</color>
+    <color name="tealish_three">#2096ab</color>
+    <color name="light_navy">#104a54</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="secondary_blue">#1e96d8</color>
+    <color name="tertiary_blue">#1b85c0</color>
+    <color name="hex_gray">#525252</color>
+
+
+    <color name="marigold">#ffc800</color>
+    <color name="yellow_orange">#ffb200</color>
+    <color name="pinkish_grey_30">#4dcccccc</color>
+
+    <color name="list_item_background_color">#59262626</color>
+
+</resources>
