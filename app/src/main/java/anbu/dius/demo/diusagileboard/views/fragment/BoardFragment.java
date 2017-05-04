@@ -35,9 +35,12 @@ public class BoardFragment extends Fragment implements View.OnTouchListener, Vie
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        getActivity().findViewById(R.id.card_view_col1).setOnTouchListener(this);
+     /*   getActivity().findViewById(R.id.card_view_col1).setOnTouchListener(this);
         getActivity().findViewById(R.id.green_ball).setOnTouchListener(this);
-        getActivity().findViewById(R.id.blue_ball).setOnTouchListener(this);
+        getActivity().findViewById(R.id.blue_ball).setOnTouchListener(this);*/
+
+        getActivity().findViewById(R.id.card_view).setOnTouchListener(this);
+
         getActivity().findViewById(R.id.top_container).setOnDragListener(this);
         getActivity().findViewById(R.id.bottom_container).setOnDragListener(this);
         getActivity().findViewById(R.id.bottom_container_2).setOnDragListener(this);
