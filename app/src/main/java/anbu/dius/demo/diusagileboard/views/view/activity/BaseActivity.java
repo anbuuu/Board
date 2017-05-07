@@ -1,4 +1,4 @@
-package anbu.dius.demo.diusagileboard.views.activity;
+package anbu.dius.demo.diusagileboard.views.view.activity;
 
 import android.app.Activity;
 

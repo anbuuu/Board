@@ -2,13 +2,18 @@ package anbu.dius.demo.diusagileboard.views.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +24,7 @@ import anbu.dius.demo.diusagileboard.R;
  * Created by anbu.ezhilan on 2/05/2017.
  */
 
-public class BoardFragment extends Fragment {
+public class BoardFragment extends Fragment implements ClassDialogFragment.DialogClickListener {
         //implements View.OnTouchListener, View.OnDragListener {
 
     private View rootView;
@@ -28,6 +33,7 @@ public class BoardFragment extends Fragment {
     private RecyclerView.LayoutManager mBoardLayoutManager;
     private BoardAdapter mBoardAdapter;
     private final String TAG = BoardFragment.class.getSimpleName();
+    private FloatingActionButton mAddCard;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState)
@@ -40,6 +46,24 @@ public class BoardFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         //return super.onCreateView(inflater, container, savedInstanceState);
         rootView = inflater.inflate(R.layout.fragment_board, container, false);
+
+        mAddCard = (FloatingActionButton) rootView.findViewById(R.id.addCard);
+        mAddCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Snackbar.make(rootView, "Add Card Clicked", Snackbar.LENGTH_LONG).setAction("Action", null).show();
+                // Call the dialog Fragment here
+                // TODO Best Practices
+                FragmentManager fm = getActivity().getSupportFragmentManager();
+
+                ClassDialogFragment cardDialogFragment = new ClassDialogFragment();
+                cardDialogFragment.setTargetFragment(BoardFragment.this, 0);
+                //cardDialogFragment.setRetainInstance(true);
+                cardDialogFragment.show(fm, "cardFragment");
+
+            }
+        });
+
         return rootView;
     }
 
@@ -67,9 +91,12 @@ public class BoardFragment extends Fragment {
 
         mBoardRecyclerView.setLayoutManager(mBoardLayoutManager);
 
+
+
         List<Integer> columnSize = new ArrayList<>();
 
-        for ( int i=0;i<20;i++) { // TODO Default Column Size
+
+        for ( int i=0;i<10;i++) { // TODO Default Column Size
             columnSize.add(i);
         }
 
@@ -86,6 +113,8 @@ public class BoardFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
     }
+
+
 
    /* @Override
     public boolean onTouch(View v, MotionEvent e) {
@@ -112,4 +141,16 @@ public class BoardFragment extends Fragment {
         return true;
     }*/
 
+    public void onAddCardView(String title) {
+        Log.d(TAG, "Entering onAddCardView with Title " + title);
+
+    }
+
+    @Override
+    public void onYesClick(DialogFragment dialogFragment) {
+        EditText title = (EditText) dialogFragment.getDialog().findViewById(R.id.title);
+        String strTitle = title.getText().toString();
+        Log.d(TAG, "Retrieved Title is " + strTitle);
+        Toast.makeText(getActivity(), strTitle, Toast.LENGTH_SHORT).show();
+    }
 }

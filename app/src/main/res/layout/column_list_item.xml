@@ -4,21 +4,22 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/column_list_main_layout"
     android:background="?android:windowBackground">
 
 
     <LinearLayout
         android:id="@+id/top_container"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:background="#000800"
-        android:layout_margin="20dp"
+        android:background="@color/cardview_dark_background"
+        android:layout_margin="5dp"
         android:orientation="vertical"
         android:gravity="center">
 
 
 
-        <android.support.v7.widget.CardView
+       <android.support.v7.widget.CardView
             xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:id="@+id/card_view"
             android:layout_gravity="top"
@@ -41,29 +42,15 @@
                     android:layout_height="wrap_content"
                     android:textColor="#FF4444"
                     android:textSize="12sp"
-                    android:text="Gordon"
+                    android:text="Start"
                     android:gravity="start"
                     />
-                <TextView
-                    android:id="@+id/info_text2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/info_text"
-                    android:text="Test."
-                    android:gravity="start"
-                    />
-                <TextView
-                    android:id="@+id/info_text3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/info_text2"
-                    android:textColor="#33B5E5"
-                    android:gravity="start"
-                    android:text="and I'm the reference."
+
                     />
 
             </LinearLayout>
         </android.support.v7.widget.CardView>
+
 
     </LinearLayout>
 
