@@ -1,42 +1,28 @@
 # Project Title
 
-One Paragraph of project description goes here
+Android Exercise for Showing News Content
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This repository contains a detailed sample App that implements MVP Architecture using Dagger2, RxJava, Retrofit2, Butter Knife and Material Design
 
-### Prerequisites
+### Prerequisites - Development
 
-What things you need to install the software and how to install them
+Android Studio 3.0, Gradle, Build Tools Version >= 25.0.2
 
-```
-Give examples
-```
+### App Supported Devices
+
+From Android Minimum SDK Version 19 / Android 4.4 (KITKAT)
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+A Dropbox link is provided is below, which can be used to download the APK and installing on the physical device, following instructions ( Additonal step is to "Enable Third Party Apps Installation" on Device )
 
 ## Running the tests
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
+### Architecture Blue Print
 
 Explain what these tests test and why
 
@@ -44,7 +30,7 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
+### Project Structure
 
 Explain what these tests test and why
 
