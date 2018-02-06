@@ -4,7 +4,7 @@ Android Exercise for Showing News Content
 
 ## Getting Started
 
-This repository contains a detailed sample App that implements MVP Architecture using Dagger2, RxJava, Retrofit2, Butter Knife and Material Design
+This repository contains a detailed sample App which consumes the given API and displays a list of news articles to the user. App implements MVP Architecture using Dagger2, RxJava, Retrofit2, Butter Knife, Stetho, Event Bus, Espresso, Mockito and Material Design
 
 ### Prerequisites - Development
 
@@ -24,7 +24,7 @@ Explain how to run the automated tests for this system
 
 ### Architecture Blue Print
 
-Explain what these tests test and why
+
 
 ```
 Give an example
@@ -47,6 +47,14 @@ Add additional notes about how to deploy this on a live system
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+
+This repository contains a detailed sample app that implements MVP architecture using Dagger2, GreenDao, RxJava, FastAndroidNetworking, PlaceHolderView and AndroidDebugDatabase
+<p align="center">
+  <img src="https://www.dropbox.com/s/ol51vofyn6t0k7h/Clean%20Architecture%20Bob.png?dl=0" width="250">
+  <img src="https://janishar.github.io/images/mvp-app-pics/main-view.png" width="250">
+  <img src="https://janishar.github.io/gifs/mvp-app.gif" width="250">
+</p>
 
 ## Contributing
 
