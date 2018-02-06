@@ -41,6 +41,11 @@ The main dependency rule is that source code dependencies can only point inwards
 
 <img src="https://github.com/anbuuu/fairfaxpictures/blob/master/Bobs-Implementation.png" width="300" height="250" />
 
+To achieve the separation of concerns, I designed to break up the project into 3 different layers which are 
+ -- Presentation layer
+ -- Domain layer and
+ -- Data layer
+
 ### Project Structure
 
 
