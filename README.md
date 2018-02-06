@@ -1,6 +1,6 @@
 # Project Title
 
-Android Exercise for Showing News Content
+Android Coding Exercise for showing the List of News Articles and clicking on the item will take the User to the Detailed News Section.
 
 ## Getting Started
 
@@ -17,6 +17,8 @@ From Android Minimum SDK Version 19 / Android 4.4 (KITKAT)
 ### Installing
 
 A Dropbox link is provided is below, which can be used to download the APK and installing on the physical device, following instructions ( Additonal step is to "Enable Third Party Apps Installation" on Device )
+
+
 
 ## Running the tests
 
