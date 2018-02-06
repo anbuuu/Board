@@ -35,7 +35,11 @@ This repository contains a detailed sample app that implements MVP architecture 
 
 Implemented the project with Clean Architecture ( Bob ). I had chosen this one for the implementation which is Indepdnent of Frameworks, Each component individually testable, Independent of UI and any external agency.  Borrowing from Bob's Clean Architecture Diagram as below : 
 
-<img src="https://github.com/anbuuu/fairfaxpictures/blob/master/Clean%20Architecture%20Bob.png" width="500" height="250"/>
+<img src="https://github.com/anbuuu/fairfaxpictures/blob/master/Clean%20Architecture%20Bob.png" width="400" height="250"/>
+
+The main dependency rule is that source code dependencies can only point inwards and nothing in an inner circle know anything about something in the outer circle. 
+
+<img src="https://github.com/anbuuu/fairfaxpictures/blob/master/Bobs-Implementation.png" width="300" height="250" />
 
 ### Project Structure
 
