@@ -75,12 +75,12 @@ The data needed for the application comes from this layer through the ```DataRep
 
 ## Libraries Used
 
-* [RxJava](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Dagger](https://maven.apache.org/) - Dependency Management
-* [Retrofit2](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-* [ButterKnife](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-* [Mockito](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-* [Picasso](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [RxJava](http://www.dropwizard.io/1.0.2/docs/) - Open Source Implementation of ReactiveX
+* [Dagger](https://google.github.io/dagger/) - Dependency Injection Framework
+* [Retrofit2](http://square.github.io/retrofit/) - HTTP Client for Android and Java
+* [ButterKnife](http://jakewharton.github.io/butterknife/) - Bind Library for Android Views
+* [Mockito](http://site.mockito.org/) - Unit Testing Framework
+* [Espresso](https://developer.android.com/training/testing/espresso/index.html) - UI Testing Framework
 
 
 
