@@ -24,7 +24,9 @@ A Dropbox link is provided is below, which can be used to download the APK and i
 
 This repository contains a detailed sample app that implements MVP architecture using Dagger2, GreenDao, RxJava, FastAndroidNetworking, PlaceHolderView and AndroidDebugDatabase
 <p align="center">
-  <img src="https://janishar.github.io/images/mvp-app-pics/mvp-login.png" width="250">
+  
+  
+  <img src="https://github.com/anbuuu/fairfaxpictures/blob/master/Clean%20Architecture%20Bob.png" width="250">
   <img src="https://janishar.github.io/images/mvp-app-pics/main-view.png" width="250">
   <img src="https://janishar.github.io/gifs/mvp-app.gif" width="250">
 </p>
@@ -58,5 +60,5 @@ Demo Versioning v1.0
 
 ## Author
 
-* **Anbu Ezhilan** - *Initial work* - [PurpleBooth](https://github.com/anbuuu)
+* **Anbu Ezhilan** - (https://github.com/anbuuu)
 
