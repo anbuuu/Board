@@ -46,12 +46,26 @@ To achieve the separation of concerns, I designed to break up the project into 3
  * Domain layer and
  * Data layer
 
+<img src="https://github.com/anbuuu/fairfaxpictures/blob/master/Multiple-Layers.png" width="300" height="250" />
+
+## Presentation Layer
+
+This is an android module that represents the presentation layer. The layer implements logic related with views and animations. It uses MVP. This project primarily uses a Single Activity ( ```AppMainActivity ``` ) and 2 Fragments, one for the App List View and another for the Web View for the selected News Article. 
+
+## Domain layer
+
+This layer provides interactors and the corresponding implementations as well. The business rules is implemented here, and this layer is purely a java model without any android dependencies. 
+
+The project has an Abstract method for Interactors which utilisex RxJava Subscription and Observable to interact and implement. The model classes are POJO.
+
+## Data Layer
+
+The data needed for the application comes from this layer through the ```DataRepository``` implementation with the interface in Domain layer. The idea behind is that data origin is transparent to the client.
+
 ### Project Structure
 
 
-```
-Give an example
-```
+
 
 
 
