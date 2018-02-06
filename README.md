@@ -28,6 +28,8 @@ This repository contains a detailed sample app that implements MVP architecture 
   
   <img src="https://github.com/anbuuu/fairfaxpictures/blob/master/Clean%20Architecture%20Bob.png" width="250">
   <img src="https://github.com/anbuuu/fairfaxpictures/blob/master/App%20Landing%20Page.png" width="250">
+ <img src="https://github.com/anbuuu/fairfaxpictures/blob/master/App%20Detailed%20-%20Webview.png" width="250">
+
  
 </p>
 
