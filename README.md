@@ -54,6 +54,9 @@ This is an android module that represents the presentation layer. The layer impl
 
 ## Domain layer
 
+<img src="https://github.com/anbuuu/fairfaxpictures/blob/master/Domain-layer.png" width="300" height="250" />
+
+
 This layer provides interactors and the corresponding implementations as well. The business rules is implemented here, and this layer is purely a java model without any android dependencies. 
 
 The project has an Abstract method for Interactors which utilisex RxJava Subscription and Observable to interact and implement. The model classes are POJO.
