@@ -63,20 +63,25 @@ The project has an Abstract method for Interactors which utilisex RxJava Subscri
 
 ## Data Layer
 
+<img src="https://github.com/anbuuu/fairfaxpictures/blob/master/Data%20Implementation.png" width="300" height="250" />
+
 The data needed for the application comes from this layer through the ```DataRepository``` implementation with the interface in Domain layer. The idea behind is that data origin is transparent to the client.
 
 ### Project Structure
 
-
-
+<img src="https://github.com/anbuuu/fairfaxpictures/blob/master/App-Structure.png" width="400" height="300" />
 
 
 
 ## Libraries Used
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [RxJava](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Dagger](https://maven.apache.org/) - Dependency Management
+* [Retrofit2](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [ButterKnife](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Mockito](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Picasso](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
 
 
 
