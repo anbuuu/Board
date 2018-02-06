@@ -20,12 +20,14 @@ A Dropbox link is provided is below, which can be used to download the APK and i
 
 
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
 ### Architecture Blue Print
 
+This repository contains a detailed sample app that implements MVP architecture using Dagger2, GreenDao, RxJava, FastAndroidNetworking, PlaceHolderView and AndroidDebugDatabase
+<p align="center">
+  <img src="https://janishar.github.io/images/mvp-app-pics/mvp-login.png" width="250">
+  <img src="https://janishar.github.io/images/mvp-app-pics/main-view.png" width="250">
+  <img src="https://janishar.github.io/gifs/mvp-app.gif" width="250">
+</p>
 
 
 ```
