@@ -19,8 +19,7 @@ From Android Minimum SDK Version 19 / Android 4.4 (KITKAT)
 A Dropbox link is provided is below, which can be used to download the APK and installing on the physical device, following instructions ( Additonal step is to "Enable Third Party Apps Installation" on Device )
 
 
-
-### Architecture Blue Print
+### Overview 
 
 This repository contains a detailed sample app that implements MVP architecture using Dagger2, GreenDao, RxJava, FastAndroidNetworking, PlaceHolderView and AndroidDebugDatabase
 <p align="center">
@@ -32,9 +31,11 @@ This repository contains a detailed sample app that implements MVP architecture 
 </p>
 
 
-```
-Give an example
-```
+### Architecture Blue Print
+
+Implemented the project with Clean Architecture ( Bob ). I had chosen this one for the implementation which is Indepdnent of Frameworks, Each component individually testable, Independent of UI and any external agency.  Borrowing from Bob's Clean Architecture Diagram as below : 
+
+<img src="https://github.com/anbuuu/fairfaxpictures/blob/master/Clean%20Architecture%20Bob.png" width="500" height="250"/>
 
 ### Project Structure
 
