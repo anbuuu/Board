@@ -63,7 +63,7 @@ The project has an Abstract method for Interactors which utilisex RxJava Subscri
 
 ## Data Layer
 
-<img src="https://github.com/anbuuu/fairfaxpictures/blob/master/Data%20Implementation.png" width="300" height="250" />
+<img src="https://github.com/anbuuu/fairfaxpictures/blob/master/Data%20Implementation.png" width="500" height="400" />
 
 The data needed for the application comes from this layer through the ```DataRepository``` implementation with the interface in Domain layer. The idea behind is that data origin is transparent to the client.
 
