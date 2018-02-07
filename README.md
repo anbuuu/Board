@@ -21,7 +21,6 @@ A Dropbox link is provided is below, which can be used to download the APK and i
 
 ### Overview 
 
-This repository contains a detailed sample app that implements MVP architecture using Dagger2, GreenDao, RxJava, FastAndroidNetworking, PlaceHolderView and AndroidDebugDatabase
 <p align="center">
   
  <img src="https://github.com/anbuuu/fairfaxpictures/blob/master/App%20Landing%20Page.png" width="250">
@@ -71,7 +70,9 @@ The data needed for the application comes from this layer through the ```DataRep
 
 <img src="https://github.com/anbuuu/fairfaxpictures/blob/master/App-Structure.png" width="400" height="300" />
 
+### Unit Tests 
 
+Unit tests covering Service API Calls, Recycler Items Loading, Scrolling to a certain position, Validation of Items and Click event on News Articles
 
 ## Libraries Used
 
